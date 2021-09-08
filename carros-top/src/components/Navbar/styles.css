@@ -1,8 +1,10 @@
+
 .main-nav{
-    padding-left: 88px ;
+    padding-left: 18px ;
     min-height: 70px;
 
 }
+
 .nav-logo-text{
     color: #00285F;
 }
@@ -10,6 +12,7 @@
 .nav-logo-text:hover{
     color: #00285F;
 }
+
 
 .main-menu{
     display: flex;
