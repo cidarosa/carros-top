@@ -1,11 +1,12 @@
 import './styles.css'
 import 'bootstrap/js/src/collapse.js';
 
+
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
             <div className="container-fluid">
-                <a href="link" className="nav-logo-text">
+                <a href="link" className="nav-logo-text" >
                     <h4>Carros Top</h4>
                 </a>
 
@@ -24,10 +25,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="topcars-navbar">
                     <ul className="navbar-nav offset-md-6 main-menu">
                         <li>
-                            <a href="link" className="active">HOME</a>
+                            <a href  ="link" >HOME</a>
                         </li>
                         <li>
-                            <a href="link">CATÁLOGO</a>
+                            <a href="link" >CATÁLOGO</a>
                         </li>
                     </ul>
                 </div>
