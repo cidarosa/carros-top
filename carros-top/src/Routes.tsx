@@ -16,7 +16,6 @@ const Routes = () => (
             <Route path="/products">
                 <Catalog />
             </Route>
-
         </Switch>
     </BrowserRouter>
 
